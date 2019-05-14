@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    }
+  
+    header {
+        margin-left: -20%;
+        margin-right: -20%;
+        
+    }
+
+header h1 {
+    background-color:  #0E1F62;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin-top: 0;
+    width: 100%;
+    }
+ h3 {
+    color: #0E1F62;
+    }
+fieldset {
+    border: none;
+    }
+.newsletter {
+    padding: 5%;
+}
+.section {
+  text-align: center; 
+  margin-bottom: 25px; 
+}
+
+.blue-border {
+height: auto;
+width: 100%;
+border-top: 3px solid #0E1F62;
+border-bottom: 1px solid #0E1F62;
+padding: 2.5px;
+}
+.flex {
+display: block;
+margin-top: 10px;
+margin-bottom: 5px;
+
+}
+
+hr {
+border: 2px solid #0E1F62;
+}
+.flex input,
+textarea {
+width: 100%;
+background-color: #ECECEC;
+padding: 5px;
+border: none;
+border-radius: 15px;
+}
+
+label {
+    color: #65708E;;
+    font-weight: 100;
+}
+
+
+input#name,
+input#email {
+    text-align: right;
+}
+
+input#name:focus,
+input#email:focus {
+text-align:left;
+}
+
+::placeholder {
+    font-style: italic;
+    padding-right: 2px;
+ }
+
+.flex select {
+width: 100%;
+background-color:#ECECEC; 
+font-size: 16px;
+
+}
+
+.choice label {
+margin-left: 10px;
+display: inline-block;
+}
+.text_area {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  background-color: #ECECEC; 
+  border: none;
+  
+}
+
+button {
+    width: 100%;
+    background-color: #69C6B5;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 5px;
+    font-size: 24px;
+}
+.newsletter {
+    color: #0E1F62;
+}
+.newsletter p {
+    color: #CCD2D1;
+}
+footer {
+    text-align: center;
+    color: #CCD2D1;
+}
+
+@media screen and (min-width: 768px)
+{
+
+label.input {
+display: inline-block;
+position: absolute;
+right: 0;
+width: 70%;
+
+}
+
+main {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+
+/* label {
+
+    display: inline;
+    float: left;
+    text-align: right;
+    margin: 5px;
+} */
+
+.flex {
+width: 100%;
+clear: both;
+}
+ 
+
+
+}
